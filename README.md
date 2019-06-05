@@ -1,8 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/fineterra/portfolio.svg) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/fineterra/portfolio.svg)  
 
-![Twitter Follow](https://img.shields.io/twitter/follow/MazzocchiFabia.svg?label=Follow%20on%20Twitter)
-
-
 # Portfolio
 Short programs I wrote in Python to showcase what I'm learning
 
