@@ -10,7 +10,6 @@ print("\t\tWelcome to the 'Computer Guessing Name'.")
 try:
     number = int(input("Pick a random number between 1 and 100, "
                        "and the computer will guess it for you: "))
-    pass
 except Exception as e:
     print("It's not a number.")
     quit()
@@ -20,7 +19,6 @@ while number < 1 or number > 100:
     try:
         number = int(input("Pick a random number between 1 and 100, "
                            "and the computer will guess it for you: "))
-        pass
     except Exception as e:
         print("It's not a number.")
         quit()
