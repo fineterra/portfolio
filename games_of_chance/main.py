@@ -35,7 +35,7 @@ def menu():
     1. How to play
     2. Check available money
     3. Flipping coin
-    4. Cho Han
+    4. Cho-Han
     5. Cards
     6. Roulette
     7. Exit
@@ -59,7 +59,7 @@ def menu():
     elif choice == 6:
         roulette()
     elif choice == 7:
-        input("Press ENTER to quit.")
+        print("")
     else:
         print(choice, "is not a valid choice.")
 
@@ -70,7 +70,7 @@ def instructions():
     print("""
     Which game would you like to hear an explanation of?
     1. Flipping coin
-    2. Cho Han
+    2. Cho-Han
     3. Cards
     4. Roulette
     5. Go back
@@ -92,8 +92,9 @@ def instructions():
             choice = int(choice)
         elif choice == 2:
             print("""
-            Cho Han is an old Japanese game. You roll two dice and try to guess
-            if their sum is going to be odd or even. If you guessed correctly,
+            Cho-Han is a traditional Japanese game.
+            You roll two dice and try to guess if their sum is going
+            to be odd or even. If you guessed correctly,
             you'll win and double your bet.
             """)
             choice = input(
@@ -130,6 +131,7 @@ def instructions():
             )
             choice = int(choice)
 
+    input("\nPress ENTER to return to the main menu.")
     os.system('cls' if os.name == 'nt' else 'clear')
     menu()
 
@@ -195,6 +197,7 @@ def flipping_coin():
               + str(bet) + ".")
         print("You now have £" + str(money) + ".")
 
+    input("\nPress ENTER to return to the main menu.")
     os.system('cls' if os.name == 'nt' else 'clear')
     menu()
     return money
@@ -246,6 +249,7 @@ def cho_han():
               ". You lost £" + str(bet) + ".")
         print("You now have £" + str(money) + ".")
 
+    input("\nPress ENTER to return to the main menu.")
     os.system('cls' if os.name == 'nt' else 'clear')
     menu()
     return money
@@ -256,7 +260,7 @@ def cards():
     global money
     global bet
     bet_amount()
-    input("Press ENTER to draw a card.")
+    input("\nPress ENTER to draw a card.")
 
     # The player draw a card
     player_card = random.randint(1, 13)
@@ -300,6 +304,7 @@ def cards():
         print("It's a tie! You get your money back.")
         print("You still have £" + str(money) + ".")
 
+    input("\nPress ENTER to return to the main menu.")
     os.system('cls' if os.name == 'nt' else 'clear')
     menu()
     return money
@@ -366,6 +371,7 @@ def roulette():
               + str(bet) + ".")
         print("You now have £" + str(money) + ".")
 
+    input("\nPress ENTER to return to the main menu.")
     os.system('cls' if os.name == 'nt' else 'clear')
     menu()
     return money
