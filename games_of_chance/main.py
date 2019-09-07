@@ -7,6 +7,7 @@ import random
 import os
 
 money = 100
+bet = 0
 
 # Write your game of chance functions here
 
@@ -83,7 +84,7 @@ def instructions():
         if choice == 1:
             print("""
             Select a side of the coin you would like to bet on.
-            A coin will be flipped, and if you guessed correcly
+            A coin will be flipped, and if you guessed correctly
             the side it lands on, you'll win and double your bet.
             """)
             choice = input(
@@ -139,6 +140,7 @@ def instructions():
 def available_money():
     """Print available money."""
     print("You have £" + str(money) + " available.")
+    input("\nPress ENTER to return to the main menu.")
     os.system('cls' if os.name == 'nt' else 'clear')
     menu()
 
@@ -153,7 +155,7 @@ def bet_amount():
         print("You have £" + str(money) + " available.")
         bet = input("How much would you like to bet? ")
         bet = int(bet)
-        if 0 < bet < money:
+        if 0 < bet <= money:
             valid_bet = True
             return bet
         else:
@@ -320,7 +322,7 @@ def roulette():
     Choose on what to bet:
     1. Odd
     2. Even
-    3. Number
+    3. Number between 0 and 36
     """)
 
     # Keep asking until the choice is valid
