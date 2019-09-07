@@ -11,3 +11,7 @@ The user chooses a number between 1 and 100, and the computer guesses it and ret
 
 ## RPG Character Creation
 It allows the user to create a RPG character and assign points to four attributes, Strength, Health, Wisdom, and Dexterity. The user can check the currents stats and available points, and add and remove points from the various attributes. 
+
+## Games of Chance
+An app that allows the user to bet on four different mini-games: flipping a coin, Chō-Han, drawing cards, and a simplified roulette.
+
