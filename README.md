@@ -1,6 +1,9 @@
 ![GitHub](https://img.shields.io/github/license/fineterra/portfolio.svg) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/fineterra/portfolio.svg) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1e2fb12f9e1d4a38b8e99dac87997e00)](https://www.codacy.com/app/fineterra/portfolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fineterra/portfolio&amp;utm_campaign=Badge_Grade)
 
 # Portfolio
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e07124b6b2d34b00b2d73039a4c1c8fc)](https://app.codacy.com/app/fineterra/portfolio?utm_source=github.com&utm_medium=referral&utm_content=fineterra/portfolio&utm_campaign=Badge_Grade_Dashboard)
+
 Short programs I wrote in Python to showcase what I'm learning
 
 ## DnD Dice
